@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Navigation />
         <Switch>
-          <div className="bg-white h-screen w-full flex justify-center items-center p-16">
+          <div className="bg-white h-screen w-full flex justify-center items-center p-8">
             <Route path="/dashboard" component={Dashboard} />
           </div>
         </Switch>
